@@ -15,6 +15,7 @@ export const trees = {
       { id: "email",  label: "Transact Emails",  size: 13,                unlocked: true,  desc: "Dynamic transactional emails with Visualforce templates.", rank: "Expert · Comms", parents: ["soql", "policy"] },
       { id: "lwc",    label: "LWC",              size: 13,                unlocked: true,  desc: "Custom Lightning Web Components to display complex data and trigger Apex-driven business processes.", rank: "Expert · LWC", parents: ["policy", "vf_pdf"] },
       { id: "master", label: "SF Master",        size: 18, master: true,  unlocked: false, desc: "Complete Salesforce mastery. Admin Cert renewal + B2B Commerce expansion next.", rank: "Master · Salesforce", parents: ["email", "lwc"] },
+      { id: "sf_architect", label: "SF Architect", size: 16, unlocked: false, desc: "Target: Salesforce Architect certification and role. Requires Admin cert renewal + B2B Commerce + architecture patterns.", rank: "Target · Architect", parents: ["master"] },
     ]
   },
   integrations: {
